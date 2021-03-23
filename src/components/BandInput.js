@@ -16,7 +16,7 @@ class BandInput extends Component {
     event.preventDefault()
     this.props.addBand(this.state)
   }
-  
+
   render() {
     return(
       <div>
